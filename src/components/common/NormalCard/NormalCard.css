@@ -1,0 +1,16 @@
+.bg-white {
+  color: #000;
+  background-color: #fff;
+}
+
+.border-radius {
+  border-radius: 2px;
+}
+
+.shadow {
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+
+.padding-2 {
+  padding: 1rem;
+}
