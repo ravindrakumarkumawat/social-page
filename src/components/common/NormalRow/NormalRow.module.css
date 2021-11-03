@@ -16,6 +16,10 @@
   justify-content: space-between;
 }
 
+.flexWrap {
+  flex-wrap: wrap;
+}
+
 .flexWrap-between {
   flex-wrap: wrap;
 }
