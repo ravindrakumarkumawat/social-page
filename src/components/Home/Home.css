@@ -23,6 +23,23 @@ p {
   border-radius: 2px;
 }
 
+.list-tag {
+  color: #fff;
+  background-color: #7d97a5; 
+  padding: .5rem;
+}
+
+.list-tag:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 99, 111);
+}
+
+
+.list-tag-active {
+  color: #000 !important;
+  background-color:#ccc !important;
+}
+
 .tag-1 {
   color: rgb(255, 255, 255);
   background-color: rgb(48, 62, 69);
