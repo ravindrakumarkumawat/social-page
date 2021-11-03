@@ -9,7 +9,7 @@ const AlertBox = () => {
       show && (
       <NormalCard background={"bg-tag-10"}>
         <div className="">
-          <span onClick={() => setShow(false)} className="right bg-button-tag-9">
+          <span onClick={() => setShow(false)} className="pointer right bg-button-tag-9">
             <i className="fa fa-remove"></i>
           </span>
           <p><strong>Hey!</strong></p>

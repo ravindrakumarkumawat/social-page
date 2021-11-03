@@ -5,3 +5,87 @@
 .gap-2 {
   margin-top: 1.5rem;
 }
+
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+  word-wrap: wrap;
+}
+
+.tag {
+  font-size: 12px;
+
+  margin-right: .35rem;
+  margin-bottom: .35rem;
+
+  padding: .2rem .25rem;
+  border-radius: 2px;
+}
+
+.tag-1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 62, 69);
+}
+
+.tag-2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 75, 83);
+}
+
+.tag-3 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(67, 87, 97) 
+}
+
+.tag-4 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 99, 111);
+}
+
+.tag-5 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(87, 112, 125);
+}
+
+.tag-6 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(96, 125, 139);
+}
+
+.tag-7 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(125, 151, 165);
+}
+
+.tag-8 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(158, 177, 187);
+}
+
+.tag-9, .bg-button-tag-9{
+  color: rgb(0, 0, 0);
+  background-color: rgb(190, 203, 210);
+}
+
+.tag-10 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(223, 229, 232);
+}
+
+.tag-11 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(245, 247, 248);
+}
+
+.bg-button-tag-9 {
+  padding: .5rem 1rem;
+  margin-top: -8px;
+  margin-right: -8px;
+
+  border-radius: 2px;
+}
+
+.pointer {
+  cursor: pointer;
+}
