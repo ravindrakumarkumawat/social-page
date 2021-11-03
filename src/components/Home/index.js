@@ -10,6 +10,7 @@ import UpcomingEvents from '../UpcomingEvents'
 import Profile from '../Profile'
 import Interest from '../Interests'
 import AlertBox from '../AlertBox'
+import Activities from '../Activities'
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
       <NormalRow classNames="justifyBetween">
         <NormalCol span={5}>
           <Profile />
+          <div className="gap-2"></div>
+          <Activities />
           <div className="gap-2"></div>
           <Interest />
           <div className="gap-2"></div>

@@ -22,6 +22,12 @@
   width: 49%;
 }
 
+.col-44 {
+  width: 44%;
+  margin: .5rem;
+  margin-top: .25rem;
+}
+
 .col-9 {
   width: 37.5%;
 }

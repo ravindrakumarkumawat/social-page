@@ -4,6 +4,7 @@ import NormalCol from '../NormalCol'
 import './NormalCard.css'
 
 const NormalCard = ({
+  padding=true,
   borderRadius= true,
   background="bg-white",
   border=true,
@@ -13,7 +14,7 @@ const NormalCard = ({
   return (
     <NormalRow>
       <NormalCol span={24}>
-        <div className={`${background} ${border ? 'border': ''} ${shadow ? 'shadow': ''} ${borderRadius ? 'border-radius' : ''} padding-2`}>
+        <div className={`${background} ${border ? 'border': ''} ${shadow ? 'shadow': ''} ${borderRadius ? 'border-radius' : ''} ${padding ? 'padding-2' : ''}`}>
           {children}
         </div>
       </NormalCol>      
