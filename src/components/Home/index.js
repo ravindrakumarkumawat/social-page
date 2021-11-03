@@ -1,11 +1,11 @@
 import React from 'react'
-import Hom from '../Layout/Home'
+import HomeLayout from '../Layout/Home'
 
 const Home = () => {
   return (
-    <Hom>
-    name please
-    </Hom>
+    <HomeLayout>
+      <h1>name please</h1>
+    </HomeLayout>
   )
 }
 

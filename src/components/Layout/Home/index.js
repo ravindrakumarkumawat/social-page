@@ -2,8 +2,9 @@ import React from 'react'
 import NormalRow from '../../common/NormalRow'
 import NormalCol from '../../common/NormalCol'
 import Navbar from '../../Navbar'
+import './Home.css'
 
-const HomeLayout = ({
+const Home = ({
   children
 }) => {
   return (
@@ -11,11 +12,13 @@ const HomeLayout = ({
       <NormalCol span={24}>
         <Navbar />
         <NormalCol span={24}>
+          <div className="hl-container">
           {children}
+          </div>
         </NormalCol>
       </NormalCol>    
     </NormalRow>
   )
 }
 
-export default HomeLayout
+export default Home

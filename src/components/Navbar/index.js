@@ -1,25 +1,26 @@
-import { MenuOutlined, SearchOutlined } from '@ant-design/icons'
-import { Menu, Dropdown, Button } from 'antd';
-import React from 'react'
-import './Navbar.css'
-import NormalRow from '../common/NormalRow'
-import NormalCol from '../common/NormalCol'
-import './Navbar1.css'
+import { MenuOutlined } from "@ant-design/icons";
+import Avatar from "antd/lib/avatar/avatar";
+import { Menu, Dropdown } from "antd";
+import React from "react";
+import "./Navbar.css";
+import NormalRow from "../common/NormalRow";
+import NormalCol from "../common/NormalCol";
+// import "./Navbar1.css";
 const menu = (
   <Menu>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.antgroup.com">
-        Merchandise
+      <a target="_blank" rel="noopener noreferrer" href="#">
+        One new friend request
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.aliyun.com">
-        Extras
+      <a target="_blank" rel="noopener noreferrer" href="#">
+        John Doe posted on your wall
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
-        Media
+      <a target="_blank" rel="noopener noreferrer" href="#">
+        Jane likes your post
       </a>
     </Menu.Item>
   </Menu>
@@ -32,33 +33,60 @@ const Navbar = () => {
     } else {
       x.className = "topnav";
     }
-  }
+  };
   return (
     <>
-    <NormalRow>
-      <NormalCol span={24}>
-        <div className="topnav" id="myTopnav">
-          <a href="#home" className="active">HOME</a>
-          <a href="#band">BAND</a>
-          <a href="#tour">TOUR</a>
-          <a href="#contact">CONTACT</a>
-          <Dropdown overlay={menu} placement="bottomLeft" arrow>
-            <a>MORE</a>
-          </Dropdown>
-          <a href="javascript:void(0);" className="icon" onClick={handleActive}>
-          <MenuOutlined />
-          </a>
-          <a className="icon1">
-            <SearchOutlined />
-          </a>
-        </div>
-      </NormalCol>
-    </NormalRow>
+      <NormalRow>
+        <NormalCol span={24}>
+          <div className="topnav" id="myTopnav">
+            <a href="#" className="bar-item button padding-large theme-d4">
+              <i className="fa fa-home margin-right"></i>Logo
+            </a>
+            <a
+              href="#"
+              className="bar-item button hide-small padding-large hover-white"
+              title="News"
+            >
+              <i className="fa fa-globe"></i>
+            </a>
+            <a
+              href="#"
+              className="bar-item button hide-small padding-large hover-white"
+              title="Account Settings"
+            >
+              <i className="fa fa-user"></i>
+            </a>
+            <a
+              href="#"
+              className="bar-item button hide-small padding-large hover-white"
+              title="Messages"
+            >
+              <i className="fa fa-envelope"></i>
+            </a>
+            <Dropdown overlay={menu} placement="bottomLeft" arrow>
+              <a>
+                <i class="fa fa-bell"></i>
+                <span class="w3-badge w3-right w3-small w3-green">3</span>
+              </a>
+            </Dropdown>
+            <a
+              href="javascript:void(0);"
+              className="icon"
+              onClick={handleActive}
+            >
+              <MenuOutlined />
+            </a>
+            <a className="icon1">
+              <Avatar />
+            </a>
+          </div>
+        </NormalCol>
+      </NormalRow>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
 
 // <div className="navbar">
 // <div className="navbar-left">
