@@ -18,3 +18,8 @@
 .center {
   text-align: center;
 }
+
+.bg-tag-10 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(223, 229, 232);
+}

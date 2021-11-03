@@ -9,6 +9,7 @@ import './Home.css'
 import UpcomingEvents from '../UpcomingEvents'
 import Profile from '../Profile'
 import Interest from '../Interests'
+import AlertBox from '../AlertBox'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
           <div className="gap-2"></div>
           <Interest />
           <div className="gap-2"></div>
+          <AlertBox />
         </NormalCol>
         <NormalCol span={14}><div style={{border: "1px solid green"}}>1</div></NormalCol>
         <NormalCol span={4}>

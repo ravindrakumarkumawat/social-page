@@ -63,7 +63,7 @@ p {
     background-color: rgb(158, 177, 187);
 }
 
-.tag-9 {
+.tag-9, .bg-button-tag-9{
   color: rgb(0, 0, 0);
   background-color: rgb(190, 203, 210);
 }
@@ -76,4 +76,12 @@ p {
 .tag-11 {
   color: rgb(0, 0, 0);
   background-color: rgb(245, 247, 248);
+}
+
+.bg-button-tag-9 {
+  padding: .5rem 1rem;
+  margin-top: -8px;
+  margin-right: -8px;
+
+  border-radius: 2px;
 }
