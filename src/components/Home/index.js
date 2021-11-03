@@ -11,6 +11,7 @@ import Profile from '../Profile'
 import Interest from '../Interests'
 import AlertBox from '../AlertBox'
 import Activities from '../Activities'
+import Status from '../Status'
 
 const Home = () => {
   return (
@@ -25,7 +26,10 @@ const Home = () => {
           <div className="gap-2"></div>
           <AlertBox />
         </NormalCol>
-        <NormalCol span={14}><div style={{border: "1px solid green"}}>1</div></NormalCol>
+        <NormalCol span={14}>
+          <Status />
+          <div className="gap-2"></div>
+        </NormalCol>
         <NormalCol span={4}>
           <UpcomingEvents />
           <div className="gap-2"></div>

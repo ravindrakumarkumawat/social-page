@@ -1,0 +1,7 @@
+.status-border {
+  border: 1px solid #ccc;
+}
+
+.status-padding {
+  padding: 8px 16px!important;
+}

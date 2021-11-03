@@ -64,7 +64,16 @@
   opacity: .6;
 }
 
-.decline:hover, .accept:hover, .info:hover {
+.post {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  color: #fff;
+  background-color: #607d8b; 
+  padding: 8px 16px;
+}
+
+.decline:hover, .accept:hover, .info:hover, .post:hover {
   color: #000;
   background: #ccc;
 }
