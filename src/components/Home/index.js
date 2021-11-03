@@ -26,11 +26,13 @@ const Home = () => {
           <Interest />
           <div className="gap-2"></div>
           <AlertBox />
+          <div className="gap-2"></div>
         </NormalCol>
         <NormalCol span={14}>
           <Status />
           <div className="gap-2"></div>
           <Posts />
+          <div className="gap-2"></div>
         </NormalCol>
         <NormalCol span={4}>
           <UpcomingEvents />
@@ -40,6 +42,7 @@ const Home = () => {
           <Ads />
           <div className="gap-2"></div>
           <Bug />
+          <div className="gap-2"></div>
         </NormalCol>
       </NormalRow>
     </HomeLayout>
