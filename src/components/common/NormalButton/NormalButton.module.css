@@ -6,8 +6,6 @@
   color: #3b3a3a;;
   padding: .5rem;
   padding: 10px 15px;
-
-  border-radius: .5rem;
 }
 
 .btn-right {
@@ -19,8 +17,6 @@
   padding: .5rem;
   padding: 8px 16px;
 
-  /* border-radius: .5rem; */
-
   float: right;
 }
 
@@ -28,21 +24,48 @@
   background-color: #f7f7f7;
 }
 
+.accept {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  color: rgb(255, 255, 255);
+  background-color: rgb(76, 175, 80);
+  padding: 4px 16px;
+
+  width: 100%;
+
+  opacity: .6;
+}
+
+
+.decline {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  color: rgb(255, 255, 255);
+  background-color: rgb(244, 67, 54);
+  padding: 4px 16px;
+
+  width: 100%;
+
+  opacity: .6;
+}
+
+.decline:hover, .accept:hover {
+  color: #000;
+  background: #ccc;
+}
+
 .primary {
   display: block;
   cursor: pointer;
   border: 1px solid #f2f2f2;
-  /* background-color: rgb(96, 96, 216);   */
   background-color: #000;
   color: #fff;
-  /* padding: .5rem; */
   padding: 8px 16px;
-
-  /* border-radius: .2rem; */
 }
 
 .primary:hover {
-  /* background-color: rgb(40, 40, 133); */
   background-color: #ccc;
   color: #000;
 }
