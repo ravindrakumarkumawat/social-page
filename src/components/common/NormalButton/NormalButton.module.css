@@ -51,7 +51,20 @@
   opacity: .6;
 }
 
-.decline:hover, .accept:hover {
+.info {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  color: rgb(0, 0, 0);
+  background-color: rgb(223, 229, 232);
+  padding: 4px 16px;
+
+  width: 100%;
+
+  opacity: .6;
+}
+
+.decline:hover, .accept:hover, .info:hover {
   color: #000;
   background: #ccc;
 }
