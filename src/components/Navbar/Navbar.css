@@ -36,6 +36,26 @@
   float: right;
 }
 
+.badge {
+  border-radius: 50%;
+  display: block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+.right {
+  float: right;
+}
+.green {
+  color: #fff;
+  background-color: #4CAF50;
+}
+
+.small {
+  font-size: 12px;
+}
+
+
 .ant-avatar {
   height: 1.5rem !important;
   width: 1.5rem !important;

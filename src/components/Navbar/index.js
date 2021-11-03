@@ -65,8 +65,8 @@ const Navbar = () => {
             </a>
             <Dropdown overlay={menu} placement="bottomLeft" arrow>
               <a>
-                <i class="fa fa-bell"></i>
-                <span class="w3-badge w3-right w3-small w3-green">3</span>
+                <i className="fa fa-bell"></i>
+                <span className="badge right small green">3</span>
               </a>
             </Dropdown>
             <a
