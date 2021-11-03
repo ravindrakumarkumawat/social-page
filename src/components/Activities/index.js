@@ -14,32 +14,32 @@ const Activities = () => {
     <NormalCard padding={false}>
       <div className="card round">
         <div className="white">
-          <button
+          <div
             onClick="myFunction('Demo1')"
-            className="button block theme-l1 left-align"
+            className="button block theme-l1 left-align tag-3"
           >
             <i className="fa fa-circle-o-notch fa-fw margin-right"></i> My
             Groups
-          </button>
+          </div>
           <div id="Demo1" className="hide container">
             <p>Some text..</p>
           </div>
-          <button
+          <div
             onClick="myFunction('Demo2')"
-            className="button block theme-l1 left-align"
+            className="button block theme-l1 left-align tag-2"
           >
             <i className="fa fa-calendar-check-o fa-fw margin-right"></i> My
             Events
-          </button>
+          </div>
           <div id="Demo2" className="hide container">
             <p>Some other text..</p>
           </div>
-          <button
+          <div
             onClick="myFunction('Demo3')"
-            className="button block theme-l1 left-align"
+            className="button block theme-l1 left-align tag-1"
           >
             <i className="fa fa-users fa-fw margin-right"></i> My Photos
-          </button>
+          </div>
           <div id="Demo3" className="hide container">
             <NormalRow classNames={"flexWrap-between"}>
               <NormalCol span={44}>
