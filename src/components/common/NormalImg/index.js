@@ -4,11 +4,12 @@ import './NormalImg.css'
 const NormalImg = ({
   alt,
   src,
-  classNames
+  classNames,
+  width=100
 }) => {
   return (
     <div className="image-container">
-      <img alt={alt} src={src} className={`responsive-img `+ classNames}/>
+      <img alt={alt} src={src} className={`width-${width} responsive-img `+ classNames}/>
     </div>
   )
 }
