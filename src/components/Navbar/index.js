@@ -5,6 +5,7 @@ import React from "react";
 import "./Navbar.css";
 import NormalRow from "../common/NormalRow";
 import NormalCol from "../common/NormalCol";
+import Avatar2 from '../../assets/images/avatar2.png'
 // import "./Navbar1.css";
 const menu = (
   <Menu>
@@ -77,7 +78,7 @@ const Navbar = () => {
               <MenuOutlined />
             </a>
             <a className="icon1">
-              <Avatar />
+              <Avatar src={Avatar2} />
             </a>
           </div>
         </NormalCol>
