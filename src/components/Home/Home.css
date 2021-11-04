@@ -106,3 +106,14 @@ p {
 .pointer {
   cursor: pointer;
 }
+
+.padding-16 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.xxlarge {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 36px;
+}
