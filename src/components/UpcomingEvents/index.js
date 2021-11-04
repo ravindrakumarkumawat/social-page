@@ -11,6 +11,7 @@ const UpcomingEvents = () => {
       <div className="center">
           <p>Upcoming Events:</p>
           <NormalImg src={Forest} alt={"Forest"} />
+          <div className="gap-2"></div>
           <p><strong>Holiday</strong></p>
           <p>Friday 15:00</p>
           <NormalButton name={"Info"} btntype={"info"}/>
