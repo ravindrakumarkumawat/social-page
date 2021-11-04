@@ -3,25 +3,33 @@ import NormalCard from '../common/NormalCard'
 import Avatar2 from "../../assets/images/avatar2.png"
 import Lights from "../../assets/images/lights.jpg"
 import Nature from "../../assets/images/nature.jpg"
+import NormalImg from '../common/NormalImg'
+import NormalButton
+ from '../common/NormalButton'
+import NormalRow from '../common/NormalRow'
+import './Posts.css'
 const Posts = () => {
   return (
     <NormalCard>        
-        <div class="w3-container w3-card w3-white w3-round w3-margin"><br/>
-        <img src={Avatar2} alt="Avatar" class="w3-left w3-circle w3-margin-right" style={{width:"60px"}} />
-        <span class="w3-right w3-opacity">1 min</span>
+        <div className="container card white round margin"><br/>
+        <NormalImg src={Avatar2} alt="Avatar" className="left circle margin-right" style={{width:"60px"}} />
+        <span className="right opacity">1 min</span>
         <h4>John Doe</h4><br/>
-        <hr class="w3-clear" />
+        <hr className="clear" />
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <div class="w3-row-padding" style={{margin:"0 -16px"}}>
-            <div class="w3-half">
-              <img src={Lights} style={{width:"100%"}} alt="Northern Lights" class="w3-margin-bottom" />
+          <div className="row-padding" style={{margin:"0 -16px"}}>
+            <div className="half">
+              <NormalImg src={Lights} alt="Northern Lights" className="margin-bottom" />
             </div>
-            <div class="w3-half">
-              <img src={Nature}style={{width:"100%"}} alt="Nature" class="w3-margin-bottom" />
+            <div className="half">
+              <NormalImg src={Nature} alt="Nature" className="margin-bottom" />
           </div>
         </div>
-        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
-        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+        <NormalRow>
+          <NormalButton name={<><i className="fa fa-thumbs-up"></i>  Like</>} btntype="like" className="button theme-d1 margin-bottom" /> 
+          <div className="gap-r-2"></div>
+          <NormalButton name={<><i className="fa fa-comment"></i>  Comment</>} btntype="comment" className="button theme-d2 margin-bottom" /> 
+        </NormalRow>
       </div>
     </NormalCard>
   )

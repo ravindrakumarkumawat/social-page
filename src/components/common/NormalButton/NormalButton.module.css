@@ -73,7 +73,26 @@
   padding: 8px 16px;
 }
 
-.decline:hover, .accept:hover, .info:hover, .post:hover {
+.like {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  color: #fff;
+  background-color: #4d636f; 
+  padding: 8px 16px;
+}
+
+.comment {
+  display: block;
+  cursor: pointer;
+  border: 1px solid #f2f2f2;
+  color: #fff;
+  background-color: #57707d; 
+  padding: 8px 16px;
+}
+
+
+.decline:hover, .accept:hover, .info:hover, .post:hover, .like:hover, .comment:hover {
   color: #000;
   background: #ccc;
 }
