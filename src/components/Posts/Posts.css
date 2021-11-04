@@ -5,7 +5,9 @@
 .gap-t-2 {
   margin-top: 1rem;
 }
-
+.gap-tt-2 {
+  margin-top: .5rem;
+}
 .gap-b-2 {
   margin-bottom: 1rem;
 }

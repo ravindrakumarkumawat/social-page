@@ -21,10 +21,10 @@ const Posts = () => {
             src={Avatar2}
             alt="Avatar"
             classNames="width-60px"
-            style={{ width: "60px" }}
+            
           />        
         </NormalCol>
-        <NormalCol span={18}><h4>John Doe</h4></NormalCol>
+        <NormalCol span={18}><h4 className="gap-r-2 gap-tt-2">John Doe</h4></NormalCol>
         <NormalCol span={3}>
         <span className="right opacity">1 min</span></NormalCol>
         
@@ -84,10 +84,10 @@ const Posts = () => {
           src={Avatar5}
           alt="Avatar"
           classNames="width-60px"
-          style={{ width: "60px" }}
+          
         />        
       </NormalCol>
-      <NormalCol span={18}><h4>Jane Doe</h4></NormalCol>
+      <NormalCol span={18}><h4 className="gap-r-2 gap-tt-2">Jane Doe</h4></NormalCol>
       <NormalCol span={3}>
         <span className="right opacity">16 min</span></NormalCol>      
       </NormalRow>
@@ -130,10 +130,10 @@ const Posts = () => {
             src={Avatar2}
             alt="Avatar"
             classNames="width-60px"
-            style={{ width: "60px" }}
+            
           />        
         </NormalCol>
-        <NormalCol span={18}><h4>Angie Jane</h4></NormalCol>
+        <NormalCol span={18}><h4 className="gap-r-2 gap-tt-2">Angie Jane</h4></NormalCol>
         <NormalCol span={3}>
         <span className="right opacity">32 min</span></NormalCol>
         
@@ -150,6 +150,8 @@ const Posts = () => {
             />
           </NormalCol>
         </NormalRow>
+        <div className="gap-t-2"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div className="gap-b-2"></div>
         <NormalRow>
           <NormalButton
