@@ -23,3 +23,17 @@
   color: rgb(0, 0, 0);
   background-color: rgb(223, 229, 232);
 }
+
+.bg-footer1 {
+  color: #fff;
+  background-color: #435761;
+
+  padding-top: 2rem;
+}
+
+.bg-footer2 {
+  color: #fff;
+  background-color: #303e45;
+
+  padding-top: 1rem;
+}
