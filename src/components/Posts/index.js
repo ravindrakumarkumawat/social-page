@@ -58,7 +58,7 @@ const Posts = () => {
               </>
             }
             btntype="like"
-            className="button theme-d1 margin-bottom"
+           
           />
           <div className="gap-r-2"></div>
           <NormalButton
@@ -104,7 +104,7 @@ const Posts = () => {
             </>
           }
           btntype="like"
-          className="button theme-d1 margin-bottom"
+         
         />
         <div className="gap-r-2"></div>
         <NormalButton
@@ -159,7 +159,7 @@ const Posts = () => {
               </>
             }
             btntype="like"
-            className="button theme-d1 margin-bottom"
+           
           />
           <div className="gap-r-2"></div>
           <NormalButton
