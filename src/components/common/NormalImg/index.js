@@ -5,11 +5,12 @@ const NormalImg = ({
   alt,
   src,
   classNames,
-  width=100
+  width=100, children
 }) => {
   return (
     <div className="image-container">
       <img alt={alt} src={src} className={`width-${width} responsive-img `+ classNames}/>
+      {children}
     </div>
   )
 }
