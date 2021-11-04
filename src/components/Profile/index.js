@@ -2,6 +2,7 @@ import React from 'react'
 import NormalCard from '../common/NormalCard'
 import NormalImg from '../common/NormalImg'
 import Avatar3 from '../../assets/images/avatar3.png'
+import './Profile.css'
 
 const Profile = () => {
   return (
