@@ -14,8 +14,8 @@ const FriendRequest = () => {
           <p>Friend Request</p>
           <NormalImg src={Avatar6} alt={"Avatar"} width={50} />
           <span>Jane Doe</span>
-          <NormalRow className="row opacity">
-          <NormalCol span={12}>
+          <NormalRow classNames="flexWrap">
+            <NormalCol span={12}>
               <NormalButton name={<i className="fa fa-check"></i>} btntype={"accept"}/>
             </NormalCol>
             <NormalCol span={12}>
